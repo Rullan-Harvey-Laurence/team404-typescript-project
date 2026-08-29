@@ -1,3 +1,6 @@
+# Local scratch / assessment source material
+temp/
+
 # Logs
 logs
 *.log
