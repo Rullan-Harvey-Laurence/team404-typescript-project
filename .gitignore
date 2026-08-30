@@ -1,6 +1,9 @@
 # Dependency directories
 node_modules/
 
+# Local scratch / assignment handouts
+temp/
+
 # Logs
 npm-debug.log*
 yarn-debug.log*
