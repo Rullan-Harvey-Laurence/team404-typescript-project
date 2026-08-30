@@ -1,13 +1,16 @@
 {
   "name": "team404-typescript-project",
   "version": "1.0.0",
-  "description": "DLSU-D EA2 Lec Part 1",
+  "description": "DLSU-D EA2 Lec Part 1 - TypeScript Project",
+  "main": "script.js",
   "scripts": {
+    "start": "lite-server",
     "build": "tsc",
     "watch": "tsc -w"
   },
   "license": "ISC",
   "devDependencies": {
-    "typescript": "^7.0.2"
+    "lite-server": "^2.6.1",
+    "typescript": "^5.9.3"
   }
 }
