@@ -29,6 +29,21 @@ type Ticket = {
 // Harvey
 
 // Matthew
+const matthewTicket: Ticket = {
+  id: 1,
+  title: "Set up CI pipeline",
+  owner: TeamMember.Matthew,
+  assignee: TeamMember.Renz,
+  completed: false,
+  print(): void {
+    console.log("Ticket");
+    console.log("  id:        " + this.id);
+    console.log("  title:     " + this.title);
+    console.log("  owner:     " + this.owner);
+    console.log("  assignee:  " + this.assignee);
+    console.log("  completed: " + this.completed);
+  },
+};
 
 // Renz
 
@@ -39,5 +54,6 @@ type Ticket = {
 // Harvey
 
 // Matthew
+matthewTicket.print();
 
 // Renz
