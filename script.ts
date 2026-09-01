@@ -27,6 +27,16 @@ type Ticket = {
 // Chloe
 
 // Harvey
+const harveyTicket: Ticket = {
+  id: 4,
+  title: "Develop frontend layout and styling",
+  owner: TeamMember.Harvey,
+  assignee: TeamMember.Chloe,
+  completed: false,
+  print(): void {
+    console.log("Harvey Ticket: ", this);
+  },
+};
 
 // Matthew
 const matthewTicket: Ticket = {
@@ -62,6 +72,7 @@ const renzTicket: Ticket = {
 // Chloe
 
 // Harvey
+harveyTicket.print();
 
 // Matthew
 matthewTicket.print();

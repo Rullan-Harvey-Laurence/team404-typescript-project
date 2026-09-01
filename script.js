@@ -15,6 +15,16 @@ var TeamMember;
 // --- OBJECTS ---
 // Chloe
 // Harvey
+const harveyTicket = {
+    id: 4,
+    title: "Develop frontend layout and styling",
+    owner: TeamMember.Harvey,
+    assignee: TeamMember.Chloe,
+    completed: false,
+    print() {
+        console.log("Harvey Ticket: ", this);
+    },
+};
 // Matthew
 const matthewTicket = {
     id: 1,
@@ -45,6 +55,7 @@ const renzTicket = {
 // --- PRINT METHOD INVOCATIONS ---
 // Chloe
 // Harvey
+harveyTicket.print();
 // Matthew
 matthewTicket.print();
 // Renz
