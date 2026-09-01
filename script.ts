@@ -25,6 +25,16 @@ type Ticket = {
 // --- OBJECTS ---
 
 // Chloe
+const chloeTicket: Ticket = {
+  id: 3,
+  title: "Design database schema",
+  owner: TeamMember.Chloe,
+  assignee: TeamMember.Harvey,
+  completed: false,
+  print(): void {
+    console.log("Chloe Ticket: ", this);
+  },
+};
 
 // Harvey
 
@@ -60,6 +70,7 @@ const renzTicket: Ticket = {
 // --- PRINT METHOD INVOCATIONS ---
 
 // Chloe
+chloeTicket.print();
 
 // Harvey
 

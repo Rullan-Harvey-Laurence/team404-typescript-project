@@ -14,6 +14,16 @@ var TeamMember;
 })(TeamMember || (TeamMember = {}));
 // --- OBJECTS ---
 // Chloe
+const chloeTicket = {
+    id: 3,
+    title: "Design database schema",
+    owner: TeamMember.Chloe,
+    assignee: TeamMember.Harvey,
+    completed: false,
+    print() {
+        console.log("Chloe Ticket: ", this);
+    },
+};
 // Harvey
 // Matthew
 const matthewTicket = {
@@ -44,6 +54,7 @@ const renzTicket = {
 };
 // --- PRINT METHOD INVOCATIONS ---
 // Chloe
+chloeTicket.print();
 // Harvey
 // Matthew
 matthewTicket.print();
