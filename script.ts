@@ -46,6 +46,16 @@ const matthewTicket: Ticket = {
 };
 
 // Renz
+const renzTicket: Ticket = {
+  id: 2,
+  title: "Implement authentication and authorization",
+  owner: TeamMember.Renz,
+  assignee: TeamMember.Matthew,
+  completed: false,
+  print(): void {
+    console.log("Renz Ticket: ", this);
+  },
+};
 
 // --- PRINT METHOD INVOCATIONS ---
 
@@ -57,3 +67,4 @@ const matthewTicket: Ticket = {
 matthewTicket.print();
 
 // Renz
+renzTicket.print();
