@@ -32,9 +32,20 @@ const matthewTicket = {
     },
 };
 // Renz
+const renzTicket = {
+    id: 2,
+    title: "Implement authentication and authorization",
+    owner: TeamMember.Renz,
+    assignee: TeamMember.Matthew,
+    completed: false,
+    print() {
+        console.log("Renz Ticket: ", this);
+    },
+};
 // --- PRINT METHOD INVOCATIONS ---
 // Chloe
 // Harvey
 // Matthew
 matthewTicket.print();
 // Renz
+renzTicket.print();
