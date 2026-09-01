@@ -21,7 +21,12 @@ const chloeTicket = {
     assignee: TeamMember.Harvey,
     completed: false,
     print() {
-        console.log("Chloe Ticket: ", this);
+        console.log("Ticket");
+        console.log("  id:        " + this.id);
+        console.log("  title:     " + this.title);
+        console.log("  owner:     " + this.owner);
+        console.log("  assignee:  " + this.assignee);
+        console.log("  completed: " + this.completed);
     },
 };
 // Harvey

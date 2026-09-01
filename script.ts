@@ -25,15 +25,20 @@ type Ticket = {
 // --- OBJECTS ---
 
 // Chloe
-const chloeTicket: Ticket = {
-  id: 3,
-  title: "Design database schema",
-  owner: TeamMember.Chloe,
-  assignee: TeamMember.Harvey,
-  completed: false,
-  print(): void {
-    console.log("Chloe Ticket: ", this);
-  },
+const chloeTicket = {
+    id: 3,
+    title: "Design database schema",
+    owner: TeamMember.Chloe,
+    assignee: TeamMember.Harvey,
+    completed: false,
+    print() {
+        console.log("Ticket");
+        console.log("  id:        " + this.id);
+        console.log("  title:     " + this.title);
+        console.log("  owner:     " + this.owner);
+        console.log("  assignee:  " + this.assignee);
+        console.log("  completed: " + this.completed);
+    },
 };
 
 // Harvey
