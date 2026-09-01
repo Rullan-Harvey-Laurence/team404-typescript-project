@@ -37,7 +37,12 @@ const harveyTicket = {
     assignee: TeamMember.Chloe,
     completed: false,
     print() {
-        console.log("Harvey Ticket: ", this);
+        console.log("Ticket");
+        console.log("  id:        " + this.id);
+        console.log("  title:     " + this.title);
+        console.log("  owner:     " + this.owner);
+        console.log("  assignee:  " + this.assignee);
+        console.log("  completed: " + this.completed);
     },
 };
 // Matthew
