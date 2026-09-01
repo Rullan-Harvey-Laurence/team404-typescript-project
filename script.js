@@ -21,10 +21,25 @@ const chloeTicket = {
     assignee: TeamMember.Harvey,
     completed: false,
     print() {
-        console.log("Chloe Ticket: ", this);
+        console.log("Ticket");
+        console.log("  id:        " + this.id);
+        console.log("  title:     " + this.title);
+        console.log("  owner:     " + this.owner);
+        console.log("  assignee:  " + this.assignee);
+        console.log("  completed: " + this.completed);
     },
 };
 // Harvey
+const harveyTicket = {
+    id: 4,
+    title: "Develop frontend layout and styling",
+    owner: TeamMember.Harvey,
+    assignee: TeamMember.Chloe,
+    completed: false,
+    print() {
+        console.log("Harvey Ticket: ", this);
+    },
+};
 // Matthew
 const matthewTicket = {
     id: 1,
