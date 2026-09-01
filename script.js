@@ -16,9 +16,25 @@ var TeamMember;
 // Chloe
 // Harvey
 // Matthew
+const matthewTicket = {
+    id: 1,
+    title: "Set up CI pipeline",
+    owner: TeamMember.Matthew,
+    assignee: TeamMember.Renz,
+    completed: false,
+    print() {
+        console.log("Ticket");
+        console.log("  id:        " + this.id);
+        console.log("  title:     " + this.title);
+        console.log("  owner:     " + this.owner);
+        console.log("  assignee:  " + this.assignee);
+        console.log("  completed: " + this.completed);
+    },
+};
 // Renz
 // --- PRINT METHOD INVOCATIONS ---
 // Chloe
 // Harvey
 // Matthew
+matthewTicket.print();
 // Renz
